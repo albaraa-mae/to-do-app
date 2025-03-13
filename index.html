@@ -3,25 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todo</title>
+    <title>Todo app</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap");
+    </style>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./static/styles/style.css" />
     <script src="./static/scripts/script.js" defer></script>
   </head>
   <body>
-    <div class="top">
-      <h1>Todo app</h1>
+    <header>
+      <h1>TODO</h1>
+    </header>
+    <main>
       <ul id="todoList"></ul>
-    </div>
-    <div class="bottom">
       <form>
         <input
           type="text"
           name="Todo"
-          placeholder="New task"
+          placeholder="Add a task"
           autocomplete="off"
         />
         <input type="submit" value="+" />
       </form>
-    </div>
+    </main>
+    <footer>
+      <p>
+        Made By
+
+        <a href="https://github.com/albaraa-mae"
+          ><i class="fa fa-github" style="font-size: large"></i> Albaraa</a
+        >
+        &copy; 2025
+      </p>
+    </footer>
   </body>
 </html>
